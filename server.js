@@ -17,3 +17,4 @@ server.use(express.urlencoded({extended: false}))
 // server.use routes
 
 server.use('/', routes)
+server.use('/characters', routes)

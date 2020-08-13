@@ -4,7 +4,8 @@ const path = require('path')
 const filepath = path.join(__dirname, 'data.json')
 
 module.exports = {
-  getData
+  getData,
+  getProfile
 }
 
 // data functions
@@ -19,6 +20,20 @@ function getData (callback) {
     const characters = JSON.parse(contents)
     // call the callback
     callback(null, characters)
+    }
+  })
+}
+
+function getProfile (callback) {
+  // read the file
+  fs.readFile(filepath, 'utf8', (err, contents) => {
+    if (err) {
+      callback(new Error(err.message))
+    } else {
+    // parse the contents
+    const profile = JSON.parse(contents)
+    // call the callback
+    callback(null, profile)
     }
   })
 }
