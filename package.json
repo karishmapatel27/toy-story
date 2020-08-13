@@ -1,0 +1,22 @@
+{
+  "name": "toy-story",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --watchAll --noStackTrace",
+    "dev": "nodemon --inspect index --ignore data.json"
+  },
+  "author": "KaBLaM!",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}

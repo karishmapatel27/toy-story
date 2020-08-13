@@ -1,0 +1,51 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "imageURL": ,
+      "name": "Hamm",
+      "favourite song": "Piggies, The Beatles, 1968",
+      "favourite hobby": "Mud wrestling",
+      "favourite quotes": [ 
+        "All right. Nobody look till I get my cork back in.", 
+        "Come on. Let’s see how much we’re going for on eBay.”, “
+        That’s Mr. Evil Dr. Pork Chop to you."
+      ]
+    },
+    {
+      "id": 2,
+      "imageURL": ,
+      "name": "Mr Potato Head",
+      "favourite song": "Mrs Potato Head, Melanie Martinez, 2015",
+      "favourite hobby": "Stand up comedy",
+      "favourite quotes": [ 
+        "Prepare to meet Mr. Angry Eyes!", 
+        "Hey, look. I’m Picasso!", 
+        "Are we gonna do this all night? My parts are killing me." 
+      ]
+    },
+    {
+      "id": 3,
+      "imageURL": ,
+      "name": "Slinky",
+      "favourite song": "Ruff Ryders' Anthem, DMX, 1998",
+      "favourite hobby": "Long walks on the beach",
+      "favourite quotes": [ 
+        "I may not be a smart dog, but I know what roadkill is.", 
+        "Buzz, my back end’s goin’ to Baton Rouge!"
+      ]
+    },
+    {
+      "id": 4,
+      "imageURL": ,
+      "name": "Buzz Lightyear",
+      "favourite song": "Free falling: by Tom Petty & The Heartbreakers",
+      "hobby": "Sky diving",
+      "favourite quotes": [
+        "The important thing is that we stick together.",
+        "There seems to be no sign of intelligent life anywhere.",
+        "To infinity, and beyond!"
+      ]
+    }
+  ]
+}
