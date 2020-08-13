@@ -2,23 +2,23 @@
   "characters": [
     {
       "id": 1,
-      "imageURL": ,
+      "imageURL": "https://i.pinimg.com/originals/9c/bb/5d/9cbb5d6ea3a7beacd7e7c72eb1487348.jpg",
       "name": "Hamm",
-      "favourite song": "Piggies, The Beatles, 1968",
-      "favourite hobby": "Mud wrestling",
-      "favourite quotes": [ 
+      "favSong": "Piggies, The Beatles",
+      "favHobby": "Mud wrestling",
+      "favQuotes": [ 
         "All right. Nobody look till I get my cork back in.", 
-        "Come on. Let’s see how much we’re going for on eBay.”, “
-        That’s Mr. Evil Dr. Pork Chop to you."
+        "Come on. Let’s see how much we’re going for on eBay.",
+        "That’s Mr. Evil Dr. Pork Chop to you."
       ]
     },
     {
       "id": 2,
-      "imageURL": ,
+      "imageURL": "https://vignette.wikia.nocookie.net/disney/images/5/55/Profile_-_Mr._Potato_Head.jpeg/revision/latest?cb=20190313050826",
       "name": "Mr Potato Head",
-      "favourite song": "Mrs Potato Head, Melanie Martinez, 2015",
-      "favourite hobby": "Stand up comedy",
-      "favourite quotes": [ 
+      "favSong": "Mrs Potato Head, Melanie Martinez",
+      "favHobby": "Stand up comedy",
+      "favQuotes": [ 
         "Prepare to meet Mr. Angry Eyes!", 
         "Hey, look. I’m Picasso!", 
         "Are we gonna do this all night? My parts are killing me." 
@@ -26,38 +26,50 @@
     },
     {
       "id": 3,
-      "imageURL": ,
+      "imageURL": "https://disneytoystorymovie.files.wordpress.com/2014/09/slink.jpg?w=700&h=457&crop=1",
       "name": "Slinky",
-      "favourite song": "Ruff Ryders' Anthem, DMX, 1998",
-      "favourite hobby": "Long walks on the beach",
-      "favourite quotes": [ 
+      "favSong": "Ruff Ryders' Anthem, DMX",
+      "favHobby": "Long walks on the beach",
+      "favQuotes": [ 
         "I may not be a smart dog, but I know what roadkill is.", 
         "Buzz, my back end’s goin’ to Baton Rouge!"
       ]
     },
     {
       "id": 4,
-      "imageURL": ,
+      "imageURL": "https://i.pinimg.com/originals/bf/5e/d4/bf5ed4797f820344124dc868d512802e.jpg",
       "name": "Buzz Lightyear",
-      "favourite song": "Free falling: by Tom Petty & The Heartbreakers",
-      "hobby": "Sky diving",
-      "favourite quotes": [
+      "favSong": "Free fallin, Tom Petty & The Heartbreakers",
+      "favHobby": "Sky diving",
+      "favQuotes": [
         "The important thing is that we stick together.",
         "There seems to be no sign of intelligent life anywhere.",
         "To infinity, and beyond!"
       ]
     },
     {
-      "id": 1,
+      "id": 5,
+      "imageURL": "https://vignette.wikia.nocookie.net/pixar/images/2/2f/1D7D7CBB-0151-4ABE-9661-2CFC3763D1E0.png/revision/latest?cb=20190809221840",
       "name": "Sheriff Woody",
       "favSong": "Woody's Roundup - Toy story 2 ",
-      "hobbies": ["Bird watching", "rock climbing"],
-      "quotes": [
+      "favHobby": "Rock climbing",
+      "favQuotes": [
           "That wasn’t flying. That was falling with style.",
           "Reach for the sky!",
           "You’re my favorite deputy"
-      ],
-      "image": "https://vignette.wikia.nocookie.net/pixar/images/2/2f/1D7D7CBB-0151-4ABE-9661-2CFC3763D1E0.png/revision/latest?cb=20190809221840"
-  }
+      ]
+    },
+    {
+      "id": 6,
+      "imageURL": "https://youbredraptors.files.wordpress.com/2015/06/333947.jpg",
+      "name": "Rex",
+      "favSong": "Reach, S Club 7",
+      "favHobby": "Pictionary",
+      "favQuotes": [
+          "I don't like confrontation",
+          "But look at my little arms. I can't press the fire button and jump at the same time.",
+          "You just need to believe in yourself"
+      ]
+    },
   ]
 }
