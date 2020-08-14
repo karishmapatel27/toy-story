@@ -6,11 +6,7 @@
       "name": "Hamm",
       "favSong": "Piggies, The Beatles",
       "favHobby": "Mud wrestling",
-      "favQuotes": [ 
-        "All right. Nobody look till I get my cork back in.", 
-        "Come on. Let’s see how much we’re going for on eBay.",
-        "That’s Mr. Evil Dr. Pork Chop to you." 
-      ]
+      "favQuote": "All right. Nobody look till I get my cork back in."
     },
     {
       "id": 2,
@@ -18,11 +14,7 @@
       "name": "Mr Potato Head",
       "favSong": "Mrs Potato Head, Melanie Martinez",
       "favHobby": "Stand up comedy",
-      "favQuotes": [ 
-        "Prepare to meet Mr. Angry Eyes!", 
-        "Hey, look. I’m Picasso!", 
-        "Are we gonna do this all night? My parts are killing me." 
-      ]
+      "favQuote": "Hey look at me, I'm Picasso!"
     },
     {
       "id": 3,
@@ -30,10 +22,7 @@
       "name": "Slinky",
       "favSong": "Ruff Ryders' Anthem, DMX",
       "favHobby": "Long walks on the beach",
-      "favQuotes": [ 
-        "I may not be a smart dog, but I know what roadkill is.", 
-        "Buzz, my back end’s goin’ to Baton Rouge!"
-      ]
+      "favQuote": "I may not be a smart dog, but I know what roadkill is."
     },
     {
       "id": 4,
@@ -41,11 +30,7 @@
       "name": "Buzz Lightyear",
       "favSong": "Free fallin, Tom Petty & The Heartbreakers",
       "favHobby": "Sky diving",
-      "favQuotes": [
-        "The important thing is that we stick together.",
-        "There seems to be no sign of intelligent life anywhere.",
-        "To infinity, and beyond!"
-      ]
+      "favQuote": "To infinity, and beyond!"
     },
     {
       "id": 5,
@@ -53,11 +38,7 @@
       "name": "Sheriff Woody",
       "favSong": "Woody's Roundup - Toy story 2 ",
       "favHobby": "Rock climbing",
-      "favQuotes": [
-          "That wasn’t flying. That was falling with style.",
-          "Reach for the sky!",
-          "You’re my favorite deputy"
-      ]
+      "favQuote": "Reach for the sky!"
     },
     {
       "id": 6,
@@ -65,11 +46,7 @@
       "name": "Rex",
       "favSong": "Reach, S Club 7",
       "favHobby": "Pictionary",
-      "favQuotes": [
-          "I don't like confrontation",
-          "But look at my little arms. I can't press the fire button and jump at the same time.",
-          "You just need to believe in yourself"
-      ]
+      "favQuote": "But look at my little arms. I can't press the fire button and jump at the same time."
     }
   ]
 }

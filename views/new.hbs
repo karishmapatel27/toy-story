@@ -1,0 +1,32 @@
+<h1>Add a new Toy Story character</h1>
+
+<form action="/new" method="POST">
+  {{!-- <div> --}}
+    <label for="image">Image URL</label>
+    <input id="image" name="image" required>
+  {{!-- </div> --}}
+
+  {{!-- <div> --}}
+    <label for="name">Name</label>
+    <input id="name" name="name" required>
+  {{!-- </div> --}}
+
+  {{!-- <div> --}}
+    <label for="hobby">Hobby</label>
+    <input id="hobby" name="hobby" required>
+  {{!-- </div> --}}
+
+  {{!-- <div> --}}
+    <label for="favSong">Favourite Song</label>
+    <input id="favSong" name="favSong" required>
+  </div>
+
+  <div>
+      <label for="favQuote">Favourite Quote</label>
+      <input id="favQuote" name="favQuote" required>
+  </div>
+
+  <button>Add Character</button>
+</form>
+
+{{> return}}

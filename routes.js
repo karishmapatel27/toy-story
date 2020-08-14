@@ -27,7 +27,7 @@ router.get('/characters/:id', (req, res) => {
       res.status(500).send('Oh no! 500 Error!')
     } else {
     // render the template
-    // console.log(profile)
+
   const foundProfile = profile.characters.find(toy => toy.id === id)
   console.log(foundProfile)
   res.render('profile', foundProfile)
@@ -35,24 +35,19 @@ router.get('/characters/:id', (req, res) => {
   })
 })
 
-// router.get('/puppies/edit/:id', (req, res) => {
-// 	const pram = req.params.id;
-// 	const id = Number(pram);
-// 	const puppy = data.puppies.find((puppy) => puppy.id === id);
-// 	res.render('puppies/edit', puppy);
-// });
-
-// router.get('/characters/:id', (req, res) => {
-//   const id = parseInt(req.params.id)
-//   const data = 
-
-//   const foundCharacter = data.find(toy => toy.id === id)
-//   res.render('profile', foundCharacter)
-// })
+router.get('/new', (req,res) => {
+  res.render('new')
+})
 
 
-// server.get('/bonehead/:name', (req, res) => {
-//   console.log('params:', req.params)
-//   const name = req.params.name
-//   res.send(name + ' is a bonehead!')
-// })
+router.post('/new', (req, res) => {
+  const { imageURL, name, favSong, favHobby, favQuote} = req.body
+  const character = { imageURL, name, favSong, favHobby, favQuote}
+
+  utils.addCharacter(character, (err) => {
+    if (err) {
+      res.status(500).send(err.message)
+    }
+    res.redirect('/')
+  })
+})

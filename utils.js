@@ -5,7 +5,8 @@ const filepath = path.join(__dirname, 'data.json')
 
 module.exports = {
   getData,
-  getProfile
+  getProfile,
+  addCharacter
 }
 
 // data functions
@@ -38,26 +39,21 @@ function getProfile (callback) {
   })
 }
 
-// function getDinoData (callback) {
-//   // read the file
-//   fs.readFile(filepath, 'utf8', (err, contents) => {
-//     // parse the contents
-//     const dinos = JSON.parse(contents)
-//     // call the callback
-//     callback(null, dinos)
-//   })
-// }
-
-// function getMarvelData(callback) {
-//   const filepath = path.join(__dirname, 'data/marvel.json')
-//   fs.readFile(filepath, 'utf8', (err, contents) => {
-//     if (err) {
-//       // call our callback with an error
-//       callback(new Error(err.message))
-//     } else {
-//       // turn the contents into a js object
-//       const marvelData = JSON.parse(contents)
-//       callback(null, marvelData)
-//     }
-//   })
-// }
+function addCharacter (character, callback) {
+  // read the file
+  fs.readFile(filepath, 'utf8', (err, contents) => {
+    // parse the contents
+    const data = JSON.parse(contents)
+    // add a new id based on the length of the array (not a great practice)
+    character.id = data.characters.length + 1
+    // add the new character to the array
+    data.characters.push(character)
+    // stringify the characters object
+    const stringCharacter = JSON.stringify(data, null, 2)
+    // save the string to the file
+    fs.writeFile(filepath, stringCharacter, 'utf8', (err) => {
+      // call the callback
+      callback()
+    })
+  })
+}
