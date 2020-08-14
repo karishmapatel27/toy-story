@@ -1,6 +1,16 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/1024px-Toy_Story_logo.svg.png"
 
-<ul>
-{{#each characters}}
-  <li><img src="{{imageURL}}"> - {{name}}</li>
-{{/each}}
-</ul>
+<div class="container">
+  {{#each characters}}
+    <a href="/characters/{{id}}"><img width="400" height="400" src="{{imageURL}}"></a>
+  {{/each}}
+</div>
+
+
+{{!-- <div class="container">
+  {{#each puppies}}
+  <div class="puppy-list">
+    <a href="/puppies/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+  </div>
+  {{/each}}
+</div> --}}
