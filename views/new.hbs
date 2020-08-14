@@ -1,32 +1,32 @@
-<h1>Add a new Toy Story character</h1>
+<h1 class="form-title">Add a new Toy Story character</h1>
 
-<form action="/new" method="POST">
+<form class="form" action="/new" method="POST">
   {{!-- <div> --}}
-    <label for="image">Image URL</label>
-    <input id="image" name="image" required>
+    <label for="image">Image URL</label><br>
+    <input id="image" name="image" required><br><br>
   {{!-- </div> --}}
 
   {{!-- <div> --}}
-    <label for="name">Name</label>
-    <input id="name" name="name" required>
+    <label for="name">Name</label><br>
+    <input id="name" name="name" required><br><br>
   {{!-- </div> --}}
 
   {{!-- <div> --}}
-    <label for="hobby">Hobby</label>
-    <input id="hobby" name="hobby" required>
+    <label for="hobby">Hobby</label><br>
+    <input id="hobby" name="hobby" required><br><br>
   {{!-- </div> --}}
 
   {{!-- <div> --}}
-    <label for="favSong">Favourite Song</label>
-    <input id="favSong" name="favSong" required>
-  </div>
+    <label for="favSong">Favourite Song</label><br>
+    <input id="favSong" name="favSong" required><br><br>
+  {{!-- </div> --}}
 
-  <div>
-      <label for="favQuote">Favourite Quote</label>
-      <input id="favQuote" name="favQuote" required>
-  </div>
+  {{!-- <div> --}}
+      <label for="favQuote">Favourite Quote</label><br>
+      <input id="favQuote" name="favQuote" required><br><br><br>
+  {{!-- </div> --}}
 
-  <button>Add Character</button>
+  <button class="button" >Add Character</button><br><br>
 </form>
 
 {{> return}}

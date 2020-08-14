@@ -1,4 +1,6 @@
-<img src="{{imageURL}}">
+<div class="profile-container">
+
+<img class="profile-img" src="{{imageURL}}">
 <ul>
 <li>Name: {{name}}</li>
 <li>Favourite Song: {{favSong}}</li>
@@ -7,8 +9,22 @@
 </li>
 </ul>
 
-// Previous Profile
+{{!-- // Previous Profile --}}
 
-// Next Profile
+{{!-- <button class="button" type="button"><a class="link" href="/characters/{{id}}">&laquo; Previous Profile</a></button> --}}
+
+{{!-- // Next Profile --}}
+
+{{!-- <button class="button" type="button"><a class="link" href="/characters/{{id}}">Next Profile &raquo;</a></button> --}}
+
+
+
+</div>
 
 {{> return}}
+{{!-- {{@index}}: {{this}} --}}
+
+
+{{!-- {{#ifEven @index}}
+<p>{{this.description}} - {{#nextItem ../items index}} {{description}} {{/nextItem}}</p>
+{{/ifEven}} --}}
