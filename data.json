@@ -47,6 +47,12 @@
       "favSong": "Reach, S Club 7",
       "favHobby": "Pictionary",
       "favQuote": "But look at my little arms. I can't press the fire button and jump at the same time."
+    },
+    {
+      "name": "Jessie",
+      "favSong": "Hello from the other side ",
+      "favQuote": "hey there",
+      "id": 7
     }
   ]
 }

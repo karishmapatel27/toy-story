@@ -12,8 +12,8 @@ router.get('/', (req, res) => {
     if (err) {
       res.status(500).send('Oh no! 500 Error!')
     } else {
-    // render the template
-    res.render('home', characters)
+      // render the template
+      res.render('home', characters)
     }
   })
 })
@@ -26,23 +26,23 @@ router.get('/characters/:id', (req, res) => {
     if (err) {
       res.status(500).send('Oh no! 500 Error!')
     } else {
-    // render the template
+      // render the template
 
-  const foundProfile = profile.characters.find(toy => toy.id === id)
-  console.log(foundProfile)
-  res.render('profile', foundProfile)
+      const foundProfile = profile.characters.find(toy => toy.id === id)
+      console.log(foundProfile)
+      res.render('profile', foundProfile)
     }
   })
 })
 
-router.get('/new', (req,res) => {
+router.get('/new', (req, res) => {
   res.render('new')
 })
 
 
 router.post('/new', (req, res) => {
-  const { imageURL, name, favSong, favHobby, favQuote} = req.body
-  const character = { imageURL, name, favSong, favHobby, favQuote}
+  const { imageURL, name, favSong, favHobby, favQuote } = req.body
+  const character = { imageURL, name, favSong, favHobby, favQuote }
 
   utils.addCharacter(character, (err) => {
     if (err) {
