@@ -30,7 +30,7 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 - Lewis 
 - Matt
 
-## software development approach
+## Software development approach
 Mob programming
 
 ## Tasks to complete 
