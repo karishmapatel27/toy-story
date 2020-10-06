@@ -30,6 +30,9 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 - Lewis 
 - Matt
 
+## Software development approach
+Mob programming
+
 ## Tasks to complete 
 
 - [X] Pick characters and their Image URL
