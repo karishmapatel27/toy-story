@@ -2,50 +2,57 @@
   "characters": [
     {
       "id": 1,
-      "imageURL": ,
+      "imageURL": "https://freepikpsd.com/wp-content/uploads/2019/10/hamm-toy-story-png-3-Transparent-Images-Free.png",
       "name": "Hamm",
-      "favourite song": "Piggies, The Beatles, 1968",
-      "favourite hobby": "Mud wrestling",
-      "favourite quotes": [ 
-        "All right. Nobody look till I get my cork back in.", 
-        "Come on. Let’s see how much we’re going for on eBay.”, “
-        That’s Mr. Evil Dr. Pork Chop to you."
-      ]
+      "favSong": "Piggies, The Beatles",
+      "favHobby": "Mud wrestling",
+      "favQuote": "All right. Nobody look till I get my cork back in."
     },
     {
       "id": 2,
-      "imageURL": ,
+      "imageURL": "https://img.pngio.com/potato-head-png-picture-686119-mr-potato-head-png-mr-potato-head-png-569_506.png",
       "name": "Mr Potato Head",
-      "favourite song": "Mrs Potato Head, Melanie Martinez, 2015",
-      "favourite hobby": "Stand up comedy",
-      "favourite quotes": [ 
-        "Prepare to meet Mr. Angry Eyes!", 
-        "Hey, look. I’m Picasso!", 
-        "Are we gonna do this all night? My parts are killing me." 
-      ]
+      "favSong": "Mrs Potato Head, Melanie Martinez",
+      "favHobby": "Stand up comedy",
+      "favQuote": "Hey look at me, I'm Picasso!"
     },
     {
       "id": 3,
-      "imageURL": ,
+      "imageURL": "https://vignette.wikia.nocookie.net/pixar/images/9/9e/Slinky_transparent.png/revision/latest?cb=20200419214057",
       "name": "Slinky",
-      "favourite song": "Ruff Ryders' Anthem, DMX, 1998",
-      "favourite hobby": "Long walks on the beach",
-      "favourite quotes": [ 
-        "I may not be a smart dog, but I know what roadkill is.", 
-        "Buzz, my back end’s goin’ to Baton Rouge!"
-      ]
+      "favSong": "Ruff Ryders' Anthem, DMX",
+      "favHobby": "Long walks on the beach",
+      "favQuote": "I may not be a smart dog, but I know what roadkill is."
     },
     {
       "id": 4,
-      "imageURL": ,
+      "imageURL": "https://vignette.wikia.nocookie.net/pixar/images/7/7a/Buzz_Lightyear_.png/revision/latest/scale-to-width-down/620?cb=20200420004611",
       "name": "Buzz Lightyear",
-      "favourite song": "Free falling: by Tom Petty & The Heartbreakers",
-      "hobby": "Sky diving",
-      "favourite quotes": [
-        "The important thing is that we stick together.",
-        "There seems to be no sign of intelligent life anywhere.",
-        "To infinity, and beyond!"
-      ]
+      "favSong": "Free fallin, Tom Petty & The Heartbreakers",
+      "favHobby": "Sky diving",
+      "favQuote": "To infinity, and beyond!"
+    },
+    {
+      "id": 5,
+      "imageURL": "https://vignette.wikia.nocookie.net/pixar/images/2/2f/1D7D7CBB-0151-4ABE-9661-2CFC3763D1E0.png/revision/latest?cb=20190809221840",
+      "name": "Sheriff Woody",
+      "favSong": "Woody's Roundup - Toy story 2 ",
+      "favHobby": "Rock climbing",
+      "favQuote": "Reach for the sky!"
+    },
+    {
+      "id": 6,
+      "imageURL": "https://vignette.wikia.nocookie.net/pixar/images/a/a8/Rex_%28Toy_Story%29.png/revision/latest?cb=20181209010107",
+      "name": "Rex",
+      "favSong": "Reach, S Club 7",
+      "favHobby": "Pictionary",
+      "favQuote": "But look at my little arms. I can't press the fire button and jump at the same time."
+    },
+    {
+      "name": "Jessie",
+      "favSong": "Hello from the other side ",
+      "favQuote": "hey there",
+      "id": 7
     }
   ]
 }

@@ -1,0 +1,9 @@
+<img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/1024px-Toy_Story_logo.svg.png">
+
+<div class="img-container">
+  {{#each characters}}
+   <a href="/characters/{{id}}"><img class="home-img" src="{{imageURL}}"></a>
+  {{/each}}
+</div>
+
+<button class="button" type="button"><a class="link" href="/new">Add a new character</a></button>

@@ -1,0 +1,83 @@
+body 
+{
+  background-image: url(https://i.pinimg.com/originals/a3/a9/2d/a3a92de194057ff9d368bca59467081d.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+color: rgb(250,217,73);
+background-color:rgb(209,44,48);
+width: auto;
+position: fixed;
+top: 50px;
+right: 50px;
+}
+
+.addButton {
+color: rgb(250,217,73);
+background-color:rgb(209,44,48);
+width: auto;
+/* position: fixed; */
+top: 50px;
+right: 50px;
+}
+
+.form-title
+{
+    font-family: 'Rowdies', cursive;
+  font-size: 2em;
+  /* color: rgb(250,217,73);
+  color: rgb(209,44,48); */
+  color: rgb(26,79,147) 
+}
+
+.form{
+  font-size: 1em;
+  font-family: 'Rowdies', cursive;
+  font-weight: normal;
+}
+
+.home-img {
+  width: 230px;
+  height: auto;
+}
+
+.profile-img{
+  width: 500px;
+  height: auto;
+}
+
+.img-container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 1%;
+}
+
+.logo{
+  margin-bottom: -30px;
+  margin-top: 50px;
+  width:40%;
+  position: center;
+}
+
+.link
+{
+  color: rgb(250,217,73);
+  text-decoration: none;
+  font-size: 1.5em;
+  padding:30px;
+  font-weight: bold;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: 'Rowdies', cursive;
+  font-size: 2em;
+  /* color: rgb(250,217,73);
+  color: rgb(209,44,48); */
+  color: rgb(26,79,147) 
+}
